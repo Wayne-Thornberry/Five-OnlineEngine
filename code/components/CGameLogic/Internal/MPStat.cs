@@ -1,7 +1,7 @@
 ﻿using CitizenFX.Core.Native;
 using System;
 
-namespace CGameLogic
+namespace CGameLogic.Internal
 {
     internal interface IStat
     {

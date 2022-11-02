@@ -1,5 +1,6 @@
 ﻿using CGameLogic;
 using CGameLogic.Data;
+using System.Collections.Generic;
 
 namespace Proline.ClassicOnline.Engine.Parts
 {
@@ -31,7 +32,7 @@ namespace Proline.ClassicOnline.Engine.Parts
             return api.GetPedLooks(pedHandle);
         }
 
-        public static CharacterStats GetChracterStats()
+        public static Dictionary<string,object> GetChracterStats()
         {
             var api = new CGameLogicAPI();
             return api.GetCharacterStats();

@@ -6,16 +6,16 @@ namespace Proline.ClassicOnline.Engine.Parts
 {
     public static partial class EngineAPI
     {
-        public static int[] GetEntityHandlesByTypes(EntityType type)
+        public static int[] GetEntityHandlesByTypes(int type)
         {
             var api = new CCScriptObjsAPI();
-            return api.GetEntityHandlesByTypes(type);
+            return api.GetEntityHandlesByTypes((EntityType) type);
         }
 
-        public static Entity GetNeariestEntity(EntityType type)
+        public static Entity GetNeariestEntity(int type)
         {
             var api = new CCScriptObjsAPI();
-            return api.GetNeariestEntity(type);
+            return api.GetNeariestEntity((EntityType) type);
         }
     }
 }

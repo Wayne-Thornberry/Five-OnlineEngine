@@ -1,8 +1,6 @@
 ﻿using CitizenFX.Core;
 using CitizenFX.Core.Native;
 using Newtonsoft.Json;
-
-
 using Console = Proline.Resource.Console;
 using Proline.Resource.IO;
 using System;
