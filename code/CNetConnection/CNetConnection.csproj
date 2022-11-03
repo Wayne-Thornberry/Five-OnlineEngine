@@ -10,7 +10,7 @@
 	<ItemGroup>
 		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>..\..\..\vendor\Newtonsoft.Json.dll</HintPath>
+			<HintPath>..\..\vendor\Newtonsoft.Json.dll</HintPath>
 		</Reference>
 		<ProjectReference Include="..\CGameLogic\CGameLogic.csproj" />
 		<ProjectReference Include="..\CDataStream\CDataStream.csproj" />

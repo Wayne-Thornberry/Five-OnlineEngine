@@ -27,7 +27,7 @@
 	<ItemGroup>
 		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>..\..\..\vendor\Newtonsoft.Json.dll</HintPath>
+			<HintPath>..\..\vendor\Newtonsoft.Json.dll</HintPath>
 		</Reference> 
 		<Reference Include="Proline.Resource.Client">
 			<HintPath>E:\artifacts\ResourceLibs\Client\Proline.Resource.Client.dll</HintPath>
