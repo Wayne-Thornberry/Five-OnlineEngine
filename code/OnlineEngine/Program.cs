@@ -6,9 +6,8 @@ using Console = Proline.Resource.Console;
 namespace OnlineEngine
 {
     public class Program
-    {
-
-        private static void Main(string[] args)
+    { 
+        public static void Main(string[] args)
         {
             Console.WriteLine($"Started Engine");
 

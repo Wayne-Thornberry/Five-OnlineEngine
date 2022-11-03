@@ -34,9 +34,6 @@
 		<Reference Include="Proline.ClassicOnline.EventQueue">
 		  <HintPath>..\..\vendor\Components\Proline.ClassicOnline.EventQueue.dll</HintPath>
 		</Reference>
-		<Reference Include="Proline.Resource.Client">
-			<HintPath>..\..\ProlineCore\Proline.Resource.Client.dll</HintPath>
-		</Reference>
 		<Reference Include="Proline.Resource.Configuration.Client">
 			<HintPath>..\..\vendor\ProlineCore\Proline.Resource.Configuration.Client.dll</HintPath>
 		</Reference>
