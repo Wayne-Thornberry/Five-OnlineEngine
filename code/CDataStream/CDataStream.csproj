@@ -14,7 +14,8 @@
 		<Reference Include="Newtonsoft.Json">
 			<HintPath>..\..\vendor\Newtonsoft.Json.dll</HintPath>
 		</Reference>
-		<ProjectReference Include="..\CDebugActions\CDebugActions.csproj" /> 
+		<ProjectReference Include="..\CDebugActions\CDebugActions.csproj" />
+		<ProjectReference Include="..\Proline.ServerAccess.IO.Client\Proline.ServerAccess.IO.Client.csproj" /> 
 		<Reference Include="Proline.Resource.Client">
 			<HintPath>..\..\vendor\ProlineCore\Proline.Resource.Client.dll</HintPath>
 		</Reference>
@@ -37,7 +38,7 @@
 			<HintPath>..\..\vendor\ProlineCore\Proline.Resource.Scripting.Client.dll</HintPath>
 		</Reference>
 		<Reference Include="Proline.ServerAccess.IO.Client">
-		  <HintPath>..\..\vendor\ServerAccess\Proline.ServerAccess.IO.Client.dll</HintPath>
+		  
 		</Reference>
 	</ItemGroup>
 

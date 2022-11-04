@@ -11,6 +11,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Proline.ServerAccess.IO.Client\Proline.ServerAccess.IO.Client.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Reference Include="Microsoft.CSharp" />
 		<Reference Include="Newtonsoft.Json">
 			<HintPath>..\..\vendor\Newtonsoft.Json.dll</HintPath>
@@ -32,10 +36,7 @@
 		</Reference>
 		<Reference Include="Proline.Resource.Scripting.Client">
 			<HintPath>..\..\vendor\ProlineCore\Proline.Resource.Scripting.Client.dll</HintPath>
-		</Reference>
-		<Reference Include="Proline.ServerAccess.IO.Client">
-		  <HintPath>..\..\vendor\ServerAccess\Proline.ServerAccess.IO.Client.dll</HintPath>
-		</Reference>
+		</Reference> 
 	</ItemGroup>
 
 
