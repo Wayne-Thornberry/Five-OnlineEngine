@@ -1,6 +1,7 @@
 ﻿using CitizenFX.Core;
 using Newtonsoft.Json;
 using Proline.Resource.Eventing;
+using Proline.ServerAccess.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,13 +14,11 @@ namespace Proline.ServerAccess.IO.Actions
 {
     public class WriteFileAction : ExtendedEvent
     { 
-        public WriteFileAction() : base(SAVEFILEHANDLER, false)
+        public WriteFileAction() : base(EventNameDefinitions.SaveFileHandler, false)
         {
 
         }
-
-
-        public const string SAVEFILEHANDLER = "SaveFileHandler";
+         
         
     }
 }

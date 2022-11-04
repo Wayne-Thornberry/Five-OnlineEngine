@@ -1,6 +1,7 @@
 ﻿using CitizenFX.Core;
 using Newtonsoft.Json;
 using Proline.Resource.Eventing;
+using Proline.ServerAccess.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,11 +13,10 @@ using Console = Proline.Resource.Console;
 namespace Proline.ServerAccess.IO.Actions
 {
     public class ReadFileAction : ExtendedEvent
-    {  
-        public const string LOADFILEHANDLER = "LoadFileHandler";
+    {   
         public string Data { get; set; }
 
-        public ReadFileAction() : base(LOADFILEHANDLER, true)
+        public ReadFileAction() : base(EventNameDefinitions.LoadFileHandler, true)
         {
 
         }  
